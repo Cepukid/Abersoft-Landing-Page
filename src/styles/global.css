@@ -1,0 +1,114 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+.button-home-deselected {
+  @apply text-textColor;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.button-home-selected {
+  @apply text-abersoftBlue;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.title-section-footer {
+  @apply text-white;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text-section-footer {
+  @apply text-white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.title {
+  @apply text-abersoftBlue;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text {
+  @apply text-textColor;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.form {
+  font-size: clamp(14px,2vw,16px);
+  @apply text-textColor;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: Poppins;
+  height: 60px;
+  background: #f6f6f9;
+  border: none;
+  border-radius: 30px;
+  padding: 0 0 0 2em;
+}
+.text-area {
+  font-size: clamp(14px,2vw,16px);
+  @apply text-textColor;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: Poppins;
+  height: 205px;
+  margin: 1em 0 2em;
+  border: none;
+  background: #f6f6f9;
+  border-radius: 30px;
+  padding: 2em 0 0 2em;
+}
+.button-form {
+  @apply bg-abersoftBlue;
+  @apply text-white;
+  border-radius: 30px;
+  border: none;
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.title-section {
+  @apply text-abersoftBlue;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.subtitle-section {
+  @apply text-textColor;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text-section {
+  @apply text-textColor;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
